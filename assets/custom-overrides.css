@@ -29,3 +29,70 @@ html { scroll-behavior: smooth; }
 *:focus-visible {
   outline-color: #5DA9D6;
 }
+
+/* === PlantPico-inspired bold section styles === */
+
+/* Button transitions on dark sections */
+.color-custom .button--primary,
+.color-accent-1 .button--primary {
+  transition: all 0.25s ease;
+}
+
+/* Outline/secondary button contrast on dark sections */
+.color-custom .button--secondary,
+.color-custom .link--text,
+.color-accent-1 .button--secondary,
+.color-accent-1 .link--text {
+  color: #ffffff;
+}
+.color-custom .button--secondary,
+.color-accent-1 .button--secondary {
+  border-color: rgba(255,255,255,0.6);
+}
+.color-custom .button--secondary:hover,
+.color-accent-1 .button--secondary:hover {
+  border-color: #ffffff;
+  background: rgba(255,255,255,0.1);
+}
+
+/* Bold heading sizing on colored sections (PlantPico-style dramatic headings) */
+.color-custom .title-wrapper h2,
+.color-custom .section-header__title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+}
+
+/* Card hover effect on dark sections */
+.color-custom .card-wrapper:hover .card {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Stars visibility on dark backgrounds */
+.color-custom .rating-star {
+  filter: brightness(1.1);
+}
+
+/* Testimonial cards on dark backgrounds */
+.color-custom .testimonial-card,
+.color-custom .testimonials__card {
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Icon visibility on dark sections */
+.color-custom .icon-with-text .material-symbols-outlined,
+.color-custom .icon-bar__icon .material-symbols-outlined {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+/* PlantPico-style icon circles for feature sections */
+.icon-with-text .icon-with-text__icon svg {
+  opacity: 0.9;
+}
+
+/* Generous section padding on colored sections */
+.color-custom.section-template,
+[class*="color-accent-1"].section-template {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
