@@ -1,1 +1,467 @@
-{"sections":{"cfca4268-6358-426c-98ab-d292aeef11e5":{"type":"slideshow","blocks":{"template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1":{"type":"slide","settings":{"image_overlay_opacity":0,"heading":"Image slide","title_highlight_color":"#6D388B","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"atc_button_label":"","atc_product":"","atc_skip_cart":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","color_scheme":"background-1","transparent_container_color":"white","text_alignment_mobile":"center","custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}},"template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-2":{"type":"slide","settings":{"image_overlay_opacity":0,"heading":"Image slide","title_highlight_color":"#6D388B","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"atc_button_label":"","atc_product":"","atc_skip_cart":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","color_scheme":"background-1","transparent_container_color":"white","text_alignment_mobile":"center","custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}}},"block_order":["template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1","template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-2"],"settings":{"visibility":"always-display","layout":"full_bleed","slide_height":"medium","slider_visual":"dots","desktop_pagination_position":"over","auto_rotate":false,"change_slides_speed":5,"show_text_below":true,"mobile_pagination_position":"under","accessibility_info":"Slideshow about our brand"}},"d2d3417b-e92f-428c-b221-5bceffb552be":{"type":"comparison-table","blocks":{"template--21507361505575__d2d3417b-e92f-428c-b221-5bceffb552be-row-1":{"type":"row","settings":{"benefit":"Benefit","us":true,"others":false}},"template--21507361505575__d2d3417b-e92f-428c-b221-5bceffb552be-row-2":{"type":"row","settings":{"benefit":"Benefit","us":true,"others":false}},"template--21507361505575__d2d3417b-e92f-428c-b221-5bceffb552be-row-3":{"type":"row","settings":{"benefit":"Benefit","us":true,"others":false}}},"block_order":["template--21507361505575__d2d3417b-e92f-428c-b221-5bceffb552be-row-1","template--21507361505575__d2d3417b-e92f-428c-b221-5bceffb552be-row-2","template--21507361505575__d2d3417b-e92f-428c-b221-5bceffb552be-row-3"],"settings":{"display_id":false,"visibility":"always-display","title":"Comparison table","title_highlight_color":"#6D388B","heading_size":"h1","text":"<p>Talk about how and why is your brand better than the others.<\/p>","button_label":"","link":"","button_style_secondary":false,"atc_button_label":"","atc_product":"","atc_skip_cart":false,"color_scheme":"background-1","layout":"table_second","style":"centered","us_label":"[shop_name]","us_label_size":18,"logo_width":90,"mobile_logo_width":60,"others_label":"Others","others_label_size":18,"others_logo_width":90,"others_mobile_logo_width":60,"checkmark_style":"regular","checkmark_color":"#ffffff","checkmark_bg_color":"#53af01","x_style":"regular","x_color":"#121212","x_bg_color":"#dbdbdb","opposite_icon_colors":"original","highlighted_color_scheme":"accent-1","highlighted_separator_opacity":0,"highlighted_overlay_opacity":0,"other_cells_color_scheme":"background-1","regular_separator_opacity":10,"regular_overlay_opacity":0,"minimalistic_border_opacity":16,"padding_top":36,"padding_bottom":36,"custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d","custom_colors_highlighted_background":"#2E2A39","custom_colors_highlighted_text":"#FFFFFF","custom_colors_others_background":"#FFFFFF","custom_colors_others_text":"#2E2A39"}},"6aa09428-a417-429d-9159-a4e8afd49590":{"type":"icon-bar","blocks":{"template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1":{"type":"column","settings":{"icon":"check_circle","filled_icon":false,"title":"Icon","text":"<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"}},"template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2":{"type":"column","settings":{"icon":"check_circle","filled_icon":false,"title":"Icon","text":"<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"}},"template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3":{"type":"column","settings":{"icon":"check_circle","filled_icon":false,"title":"Icon","text":"<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"}},"template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4":{"type":"column","settings":{"icon":"check_circle","filled_icon":false,"title":"Icon","text":"<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"}}},"block_order":["template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1","template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2","template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3","template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4"],"settings":{"display_id":false,"visibility":"always-display","title":"Icon bar","title_highlight_color":"#6D388B","heading_size":"h1","text":"","color_scheme":"background-1","icon_layout":"vertical","icon_size":"medium","icon_color":"accent-1","cards_color_scheme":"background-1","type":"slide","autoplay":false,"autoplay_speed":5,"arrows_color_scheme":"inverse","transparent_arrows":true,"dots_color_scheme":"inverse","desktop_full_page":false,"columns_desktop":4,"slider_desktop":false,"per_move_desktop":1,"desktop_spacing":40,"desktop_side_padding":0,"desktop_padding_calc":true,"desktop_adaptive_height":false,"desktop_dots_position":"under","desktop_arrows_position":"sides","columns_mobile":"1","slider_mobile":true,"enable_mobile_preview":false,"mobile_adaptive_height":false,"mobile_dots_position":"under","mobile_arrows_position":"under","padding_top":36,"padding_bottom":36,"custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_cards_colors_background":"#F3F3F3","custom_cards_gradient_background":"","custom_cards_colors_text":"#2E2A39"}},"0f1fc9e4-bc4c-4052-9747-62d1f8472caa":{"type":"results","blocks":{"template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1":{"type":"row","settings":{"percentage":90,"row_text":"<p>Noticed that this product has significantly improved their life.<\/p>"}},"template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2":{"type":"row","settings":{"percentage":90,"row_text":"<p>Noticed that this product has significantly improved their life.<\/p>"}},"template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3":{"type":"row","settings":{"percentage":90,"row_text":"<p>Noticed that this product has significantly improved their life.<\/p>"}}},"block_order":["template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1","template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2","template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3"],"settings":{"display_id":false,"visibility":"always-display","title":"Results","title_highlight_color":"#6D388B","heading_size":"h1","text":"<p>Talk about results of your customers and how your product improved their life.<\/p>","color_scheme":"background-1","layout":"results_second","results_headline":"Results heading","results_title_highlight_color":"#6D388B","results_headline_size":"h2","results_text":"","results_headline_alignment":"left","caption":"<p>Caption about the results and\/or link for their proof.<\/p>","button_label":"","link":"","button_style_secondary":false,"atc_button_label":"","atc_product":"","atc_skip_cart":false,"padding_top":36,"padding_bottom":36,"custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_colors_accent":"#dd1d1d","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}},"ee8d9ca6-4a41-401f-83a3-37e138a112b9":{"type":"contact-form","settings":{"display_id":false,"visibility":"always-display","title":"Contact form","title_highlight_color":"#6D388B","heading_size":"h1","button_full_width":true,"color_scheme":"background-1","padding_top":36,"padding_bottom":36,"custom_colors_background":"#FFFFFF","custom_gradient_background":"","custom_colors_text":"#2E2A39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff"}}},"order":["cfca4268-6358-426c-98ab-d292aeef11e5","d2d3417b-e92f-428c-b221-5bceffb552be","6aa09428-a417-429d-9159-a4e8afd49590","0f1fc9e4-bc4c-4052-9747-62d1f8472caa","ee8d9ca6-4a41-401f-83a3-37e138a112b9"]}
+{
+  "sections": {
+    "hero": {
+      "type": "image-with-text",
+      "blocks": {
+        "hero-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Everything Your Little Ones Deserve",
+            "title_highlight_color": "#6AAFE6",
+            "heading_size": "h1"
+          }
+        },
+        "hero-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thoughtfully chosen products for pets, kids, and babies. Safe, gentle, and designed to bring joy to your whole family.</p>"
+          }
+        },
+        "hero-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Best Sellers",
+            "button_link": "/collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "hero-heading",
+        "hero-text",
+        "hero-button"
+      ],
+      "settings": {
+        "layout": "image_first",
+        "height": "medium",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "desktop_media_width": 50,
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#6AAFE6",
+        "custom_colors_text": "#2D3436",
+        "custom_colors_solid_button_background": "#F8A4B8",
+        "custom_colors_solid_button_text": "#FFFFFF",
+        "custom_colors_outline_button": "#6AAFE6",
+        "custom_section_colors_background": "#F5F7FA"
+      }
+    },
+    "trust-bar": {
+      "type": "icon-bar",
+      "blocks": {
+        "trust-bar-1": {
+          "type": "column",
+          "settings": {
+            "icon": "verified_user",
+            "title": "Safe & Non-Toxic",
+            "text": "<p>Every product tested for safety</p>"
+          }
+        },
+        "trust-bar-2": {
+          "type": "column",
+          "settings": {
+            "icon": "local_shipping",
+            "title": "Free Shipping",
+            "text": "<p>On all orders over $50</p>"
+          }
+        },
+        "trust-bar-3": {
+          "type": "column",
+          "settings": {
+            "icon": "autorenew",
+            "title": "30-Day Returns",
+            "text": "<p>Hassle-free happiness guarantee</p>"
+          }
+        },
+        "trust-bar-4": {
+          "type": "column",
+          "settings": {
+            "icon": "favorite",
+            "title": "Family Approved",
+            "text": "<p>Trusted by 10,000+ families</p>"
+          }
+        }
+      },
+      "block_order": [
+        "trust-bar-1",
+        "trust-bar-2",
+        "trust-bar-3",
+        "trust-bar-4"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "cards_color_scheme": "background-2",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "columns_desktop": 4,
+        "slider_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "best-sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Sellers",
+        "title_highlight_color": "#6AAFE6",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "enable_quick_add": true,
+        "show_rating": true,
+        "color_scheme": "background-1",
+        "cards_color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "comparison": {
+      "type": "comparison-table",
+      "blocks": {
+        "comparison-row-1": {
+          "type": "row",
+          "settings": {
+            "benefit": "Safe, non-toxic materials",
+            "us": true,
+            "others": false
+          }
+        },
+        "comparison-row-2": {
+          "type": "row",
+          "settings": {
+            "benefit": "Free shipping on $50+",
+            "us": true,
+            "others": false
+          }
+        },
+        "comparison-row-3": {
+          "type": "row",
+          "settings": {
+            "benefit": "30-day happiness guarantee",
+            "us": true,
+            "others": false
+          }
+        },
+        "comparison-row-4": {
+          "type": "row",
+          "settings": {
+            "benefit": "Personally tested products",
+            "us": true,
+            "others": false
+          }
+        },
+        "comparison-row-5": {
+          "type": "row",
+          "settings": {
+            "benefit": "Dedicated family support",
+            "us": true,
+            "others": false
+          }
+        }
+      },
+      "block_order": [
+        "comparison-row-1",
+        "comparison-row-2",
+        "comparison-row-3",
+        "comparison-row-4",
+        "comparison-row-5"
+      ],
+      "settings": {
+        "title": "Why Families Choose Us",
+        "title_highlight_color": "#6AAFE6",
+        "us_label": "Us",
+        "others_label": "Others",
+        "style": "centered",
+        "layout": "table_second",
+        "checkmark_color": "#FFFFFF",
+        "checkmark_bg_color": "#6AAFE6",
+        "color_scheme": "background-2",
+        "custom_colors_highlighted_background": "#6AAFE6",
+        "custom_colors_highlighted_text": "#FFFFFF",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "stats": {
+      "type": "results",
+      "blocks": {
+        "stats-row-1": {
+          "type": "row",
+          "settings": {
+            "percentage": 97,
+            "row_text": "<p>Of customers say their pets love our products</p>"
+          }
+        },
+        "stats-row-2": {
+          "type": "row",
+          "settings": {
+            "percentage": 95,
+            "row_text": "<p>Of parents recommend us to friends and family</p>"
+          }
+        },
+        "stats-row-3": {
+          "type": "row",
+          "settings": {
+            "percentage": 99,
+            "row_text": "<p>Of orders delivered on time or early</p>"
+          }
+        }
+      },
+      "block_order": [
+        "stats-row-1",
+        "stats-row-2",
+        "stats-row-3"
+      ],
+      "settings": {
+        "title": "Real Results From Real Families",
+        "title_highlight_color": "#6AAFE6",
+        "layout": "results_second",
+        "results_headline": "What Our Customers Say",
+        "color_scheme": "accent-1",
+        "custom_colors_accent": "#F8A4B8",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "column",
+          "settings": {
+            "title": "Absolutely Love It!",
+            "text": "<p>My dog goes crazy for this toy! It\\u2019s so well made and has survived weeks of playing. Best purchase I\\u2019ve made for my pup.</p>",
+            "author": "<em><strong>Sarah M.</strong></em>"
+          }
+        },
+        "testimonial-2": {
+          "type": "column",
+          "settings": {
+            "title": "Perfect for My Toddler",
+            "text": "<p>I was looking for something safe and fun for my 2-year-old. This is exactly that. Great quality and my little one hasn\\u2019t put it down since.</p>",
+            "author": "<em><strong>James R.</strong></em>"
+          }
+        },
+        "testimonial-3": {
+          "type": "column",
+          "settings": {
+            "title": "A Must-Have for Pet Parents",
+            "text": "<p>Finally found a store that cares about quality as much as I do. Fast shipping too! My cat is obsessed with everything we\\u2019ve ordered.</p>",
+            "author": "<em><strong>Emily T.</strong></em>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3"
+      ],
+      "settings": {
+        "title": "Happy Families, Happy Homes",
+        "columns_desktop": 3,
+        "show_stars": true,
+        "stars_color": "#FFD700",
+        "show_quotes": true,
+        "cards_color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "features": {
+      "type": "icons-with-content",
+      "blocks": {
+        "features-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "eco",
+            "title": "Eco-Friendly Materials",
+            "text": "<p>We choose products made with sustainable, non-toxic materials that are safe for your family and the planet.</p>"
+          }
+        },
+        "features-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "science",
+            "title": "Quality Tested",
+            "text": "<p>Every product goes through rigorous testing to ensure it meets our high standards for safety and durability.</p>"
+          }
+        },
+        "features-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "support_agent",
+            "title": "Always Here to Help",
+            "text": "<p>Our family-focused support team is here 7 days a week to help you find the perfect products.</p>"
+          }
+        },
+        "features-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Families Trust Us",
+            "title_highlight_color": "#6AAFE6",
+            "heading_size": "h1"
+          }
+        },
+        "features-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe every family deserves access to safe, high-quality products. That\\u2019s why we carefully choose each item to ensure it meets the highest standards for your little ones and furry friends.</p>"
+          }
+        },
+        "features-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "/pages/about"
+          }
+        }
+      },
+      "block_order": [
+        "features-icon-1",
+        "features-icon-2",
+        "features-icon-3",
+        "features-heading",
+        "features-text",
+        "features-button"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "icon_color": "accent-1",
+        "layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq-row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products safe for babies and pets?",
+            "row_content": "<p>Absolutely! Safety is our top priority. Every product is carefully selected and tested to meet the highest safety standards. We only carry items made from non-toxic, child-safe, and pet-safe materials.</p>"
+          }
+        },
+        "faq-row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your shipping policy?",
+            "row_content": "<p>We offer free shipping on all orders over $50. Standard shipping takes 7-12 business days. All orders include tracking so you can follow your package every step of the way.</p>"
+          }
+        },
+        "faq-row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "row_content": "<p>We offer a 30-day happiness guarantee. If you or your little ones aren\\u2019t completely satisfied, simply contact us for a full refund or exchange. No questions asked.</p>"
+          }
+        },
+        "faq-row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I choose the right product?",
+            "row_content": "<p>Not sure what to pick? Our product pages include detailed descriptions, size guides, and customer reviews to help you decide. You can also reach out to our support team for personalized recommendations.</p>"
+          }
+        },
+        "faq-row-5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "row_content": "<p>Yes! We ship to most countries worldwide. International shipping times vary by location, typically 10-20 business days. Tracking is included with every order.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-row-1",
+        "faq-row-2",
+        "faq-row-3",
+        "faq-row-4",
+        "faq-row-5"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_highlight_color": "#6AAFE6",
+        "layout": "section",
+        "color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "brand-message": {
+      "type": "rich-text",
+      "blocks": {
+        "brand-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Built for Families, By Families",
+            "title_highlight_color": "#6AAFE6",
+            "heading_size": "h1"
+          }
+        },
+        "brand-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We started this store because we believe every family deserves access to safe, high-quality products for their little ones and furry friends \\u2014 without breaking the bank. Every product is hand-picked with love and care.</p>"
+          }
+        },
+        "brand-button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Story",
+            "button_link": "/pages/about"
+          }
+        }
+      },
+      "block_order": [
+        "brand-heading",
+        "brand-text",
+        "brand-button"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "desktop_content_position": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "divider": {
+      "type": "section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "shape_color": "accent-1",
+        "background_color": "background-1",
+        "flip_vertical": false
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Get In Touch",
+        "title_highlight_color": "#6AAFE6",
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "trust-bar",
+    "best-sellers",
+    "comparison",
+    "stats",
+    "testimonials",
+    "features",
+    "faq",
+    "brand-message",
+    "divider",
+    "contact"
+  ]
+}

@@ -1,0 +1,26 @@
+/* KindClouds - Custom Style Overrides */
+
+/* Soft hover effects for the nurturing vibe */
+.card-wrapper:hover .card {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(106, 175, 230, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Smooth transitions on buttons */
+.button, button[type="submit"] {
+  transition: all 0.25s ease;
+}
+
+/* Softer announcement ticker */
+.horizontal-ticker {
+  letter-spacing: 0.08em;
+}
+
+/* FAQ accordion refinement */
+.accordion summary {
+  font-weight: 500;
+}
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
