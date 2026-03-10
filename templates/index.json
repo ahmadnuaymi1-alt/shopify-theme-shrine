@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -31,16 +40,14 @@
         "hero-button"
       ],
       "settings": {
-        "layout": "image_first",
         "height": "medium",
-        "section_color_scheme": "accent-1",
         "color_scheme": "accent-1",
+        "section_color_scheme": "accent-1",
         "desktop_media_width": 50,
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36,
         "custom_colors_background": "#6AAFE6",
         "custom_colors_text": "#2D3436",
         "custom_colors_solid_button_background": "#F8A4B8",
@@ -93,10 +100,10 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "cards_color_scheme": "background-2",
         "icon_layout": "vertical",
         "icon_size": "medium",
         "icon_color": "accent-1",
+        "cards_color_scheme": "background-2",
         "columns_desktop": 4,
         "slider_mobile": true,
         "padding_top": 36,
@@ -108,15 +115,15 @@
       "settings": {
         "title": "Our Best Sellers",
         "title_highlight_color": "#6AAFE6",
+        "color_scheme": "background-1",
         "products_to_show": 8,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
+        "cards_color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "enable_quick_add": true,
         "show_rating": true,
-        "color_scheme": "background-1",
-        "cards_color_scheme": "background-1",
+        "enable_quick_add": true,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -175,17 +182,17 @@
       "settings": {
         "title": "Why Families Choose Us",
         "title_highlight_color": "#6AAFE6",
+        "color_scheme": "background-2",
+        "layout": "table_second",
+        "style": "centered",
         "us_label": "Us",
         "others_label": "Others",
-        "style": "centered",
-        "layout": "table_second",
         "checkmark_color": "#FFFFFF",
         "checkmark_bg_color": "#6AAFE6",
-        "color_scheme": "background-2",
-        "custom_colors_highlighted_background": "#6AAFE6",
-        "custom_colors_highlighted_text": "#FFFFFF",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "custom_colors_highlighted_background": "#6AAFE6",
+        "custom_colors_highlighted_text": "#FFFFFF"
       }
     },
     "stats": {
@@ -221,12 +228,12 @@
       "settings": {
         "title": "Real Results From Real Families",
         "title_highlight_color": "#6AAFE6",
+        "color_scheme": "accent-1",
         "layout": "results_second",
         "results_headline": "What Our Customers Say",
-        "color_scheme": "accent-1",
-        "custom_colors_accent": "#F8A4B8",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "custom_colors_accent": "#F8A4B8"
       }
     },
     "testimonials": {
@@ -264,11 +271,11 @@
       ],
       "settings": {
         "title": "Happy Families, Happy Homes",
-        "columns_desktop": 3,
         "show_stars": true,
         "stars_color": "#FFD700",
         "show_quotes": true,
         "cards_color_scheme": "background-2",
+        "columns_desktop": 3,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -425,8 +432,8 @@
         "brand-button"
       ],
       "settings": {
-        "color_scheme": "background-1",
         "desktop_content_position": "center",
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -435,9 +442,9 @@
       "type": "section-divider",
       "settings": {
         "shape": "waves_3",
+        "flip_vertical": false,
         "shape_color": "accent-1",
-        "background_color": "background-1",
-        "flip_vertical": false
+        "background_color": "background-1"
       }
     },
     "contact": {
