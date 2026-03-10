@@ -1146,11 +1146,11 @@
       "@type": "Product",
       "name": {{ product.title | json }},
       "url": {{ request.origin | append: product.url | json }},
-      {% if seo_media -%}
-        "image": [
-          {{ seo_media | image_url: width: 1920 | prepend: "https:" | json }}
-        ],
-      {%- endif %}
+      "image": [
+        {%- for media in product.media -%}
+          {{ media | image_url: width: 1920 | prepend: "https:" | json }}{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ],
       "description": {{ product.description | strip_html | json }},
       {% if product.selected_or_first_available_variant.sku != blank -%}
         "sku": {{ product.selected_or_first_available_variant.sku | json }},
@@ -1167,17 +1167,22 @@
               "sku": {{ variant.sku | json }},
             {%- endif -%}
             {%- if variant.barcode.size == 12 -%}
-              "gtin12": {{ variant.barcode }},
+              "gtin12": {{ variant.barcode | json }},
             {%- endif -%}
             {%- if variant.barcode.size == 13 -%}
-              "gtin13": {{ variant.barcode }},
+              "gtin13": {{ variant.barcode | json }},
             {%- endif -%}
             {%- if variant.barcode.size == 14 -%}
-              "gtin14": {{ variant.barcode }},
+              "gtin14": {{ variant.barcode | json }},
             {%- endif -%}
+            {%- if variant.barcode == blank and variant.sku != blank -%}
+              "mpn": {{ variant.sku | json }},
+            {%- endif -%}
+            "itemCondition": "https://schema.org/NewCondition",
             "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
             "price" : {{ variant.price | divided_by: 100.00 | json }},
             "priceCurrency" : {{ cart.currency.iso_code | json }},
+            "priceValidUntil": "{{ 'now' | date: '%Y' | plus: 1 }}-12-31",
             "url" : {{ request.origin | append: variant.url | json }}
           }{% unless forloop.last %},{% endunless %}
         {%- endfor -%}
