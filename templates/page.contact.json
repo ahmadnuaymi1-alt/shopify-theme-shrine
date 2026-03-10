@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "title": "We'd Love to Hear From You",
-            "title_highlight_color": "#6AAFE6",
+            "title_highlight_color": "#5DA9D6",
             "heading_size": "h1"
           }
         },
@@ -51,9 +51,9 @@
         "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
         "custom_colors_text": "#2E2A39",
-        "custom_colors_solid_button_background": "#6AAFE6",
+        "custom_colors_solid_button_background": "#5DA9D6",
         "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#6AAFE6"
+        "custom_colors_outline_button": "#5DA9D6"
       }
     },
     "form": {
@@ -62,7 +62,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "Get in touch",
-        "title_highlight_color": "#6AAFE6",
+        "title_highlight_color": "#5DA9D6",
         "heading_size": "h1",
         "button_full_width": true,
         "color_scheme": "background-1",
@@ -71,7 +71,7 @@
         "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
         "custom_colors_text": "#2E2A39",
-        "custom_colors_solid_button_background": "#6AAFE6",
+        "custom_colors_solid_button_background": "#5DA9D6",
         "custom_colors_solid_button_text": "#ffffff"
       }
     }

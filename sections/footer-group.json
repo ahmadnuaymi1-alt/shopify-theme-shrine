@@ -14,56 +14,62 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "fc645871-d789-4cfa-8584-4f8a29b6ce92": {
-          "type": "image",
+        "a1b2c3d4-about-text-block": {
+          "type": "text",
           "settings": {
-            "image_width": 100,
-            "alignment": "center",
-            "url": "",
+            "heading": "About Us",
+            "subtext": "<p>Your one-stop shop for premium pet, baby & kids products. We curate the best items to make life easier and more joyful for your whole family.</p><p>Questions? Contact us anytime — we're here to help.</p>",
             "width_desktop": 4,
             "width_mobile": "2"
           }
         },
-        "1c647602-cc00-4009-a058-976435c8ee9e": {
+        "b2c3d4e5-policies-links": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer",
-            "width_desktop": 4,
+            "heading": "Policies",
+            "menu": "policies",
+            "width_desktop": 2,
             "width_mobile": "1"
           }
         },
-        "24f208fd-0898-43eb-af23-d74f8420ab37": {
-          "type": "email_signup",
+        "c3d4e5f6-info-links": {
+          "type": "link_list",
           "settings": {
-            "heading": "Join the Family",
-            "subtext": "<p>Get exclusive deals, new arrivals, and tips for your little ones and furry friends.</p>",
-            "button_type": "solid",
-            "button_label": "Sign up",
-            "button_style_secondary": false,
+            "heading": "Info",
+            "menu": "footer",
+            "width_desktop": 2,
+            "width_mobile": "1"
+          }
+        },
+        "d4e5f6g7-brand-statement": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>Designed with care. Curated for modern families. Every product in our store is selected to bring comfort, safety, and joy to your home.</p>",
             "width_desktop": 4,
             "width_mobile": "2"
           }
         }
       },
       "block_order": [
-        "fc645871-d789-4cfa-8584-4f8a29b6ce92",
-        "1c647602-cc00-4009-a058-976435c8ee9e",
-        "24f208fd-0898-43eb-af23-d74f8420ab37"
+        "a1b2c3d4-about-text-block",
+        "b2c3d4e5-policies-links",
+        "c3d4e5f6-info-links",
+        "d4e5f6g7-brand-statement"
       ],
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "custom",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
-        "enable_language_selector": true,
+        "enable_language_selector": false,
         "payment_enable": true,
         "enabled_payment_types": "",
-        "show_policy": false,
+        "show_policy": true,
         "branding_text": "",
         "margin_top": 0,
-        "padding_top": 32,
-        "padding_bottom": 20,
+        "padding_top": 40,
+        "padding_bottom": 24,
         "custom_colors_background": "#2D3436",
         "custom_gradient_background": "",
         "custom_colors_text": "#ffffff",

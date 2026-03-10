@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "title": "Our Story",
-            "title_highlight_color": "#6AAFE6",
+            "title_highlight_color": "#5DA9D6",
             "heading_size": "h1"
           }
         },
@@ -81,7 +81,7 @@
         "value-3"
       ],
       "settings": {
-        "title_highlight_color": "#6AAFE6",
+        "title_highlight_color": "#5DA9D6",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "icon_layout": "vertical",
@@ -155,7 +155,7 @@
       ],
       "settings": {
         "title": "What Our Customers Say",
-        "title_highlight_color": "#6AAFE6",
+        "title_highlight_color": "#5DA9D6",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "column_alignment": "center",

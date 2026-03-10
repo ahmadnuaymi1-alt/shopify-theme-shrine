@@ -3,7 +3,7 @@
 /* Soft hover effects for the nurturing vibe */
 .card-wrapper:hover .card {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(106, 175, 230, 0.15);
+  box-shadow: 0 8px 25px rgba(93, 169, 214, 0.15);
   transition: all 0.3s ease;
 }
 
@@ -24,3 +24,8 @@
 
 /* Smooth scroll */
 html { scroll-behavior: smooth; }
+
+/* Softer focus states */
+*:focus-visible {
+  outline-color: #5DA9D6;
+}

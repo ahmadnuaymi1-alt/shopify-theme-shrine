@@ -64,7 +64,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "Multimedia collage",
-        "title_highlight_color": "#6AAFE6",
+        "title_highlight_color": "#5DA9D6",
         "heading_size": "h2",
         "desktop_layout": "right",
         "mobile_layout": "collage",
@@ -84,7 +84,7 @@
           "type": "heading",
           "settings": {
             "title": "Subscribe to our emails",
-            "title_highlight_color": "#6AAFE6",
+            "title_highlight_color": "#5DA9D6",
             "heading_size": "h1"
           }
         },
@@ -117,7 +117,7 @@
         "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
         "custom_colors_text": "#2E2A39",
-        "custom_colors_solid_button_background": "#6AAFE6",
+        "custom_colors_solid_button_background": "#5DA9D6",
         "custom_colors_solid_button_text": "#ffffff"
       }
     }
