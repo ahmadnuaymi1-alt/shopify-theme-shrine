@@ -62,13 +62,13 @@
         "mobile_padding_bottom": 16,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "custom_colors_background": "#1a5276",
+        "custom_colors_background": "#a8d8f0",
         "custom_gradient_background": "",
         "custom_colors_text": "#ffffff",
         "custom_colors_solid_button_background": "#f4845f",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#ffffff",
-        "custom_section_colors_background": "#1a5276",
+        "custom_section_colors_background": "#a8d8f0",
         "custom_section_gradient_background": ""
       }
     },
@@ -130,6 +130,8 @@
         "icon_size": "medium",
         "icon_color": "accent-1",
         "cards_color_scheme": "background-2",
+        "equal_card_heights": true,
+        "card_min_height": 0,
         "type": "slide",
         "autoplay": false,
         "autoplay_speed": 5,
@@ -334,7 +336,7 @@
         "minimalistic_border_opacity": 16,
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#1a5276",
+        "custom_colors_background": "#a8d8f0",
         "custom_gradient_background": "",
         "custom_colors_text": "#ffffff",
         "custom_colors_solid_button_background": "#f4845f",
@@ -446,21 +448,6 @@
         "custom_contaner_colors_text": "#2e2a39"
       }
     },
-    "divider": {
-      "type": "section-divider",
-      "settings": {
-        "visibility": "always-display",
-        "shape": "waves_3",
-        "flip_horizontal": false,
-        "flip_vertical": false,
-        "shape_color": "custom",
-        "custom_shape_color": "#1a5276",
-        "background_color": "background-1",
-        "custom_background_color": "#ffffff",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "horizontal_ticker_r4njxz": {
       "type": "horizontal-ticker",
       "blocks": {
@@ -488,6 +475,7 @@
         "text_3iaNFR",
         "text_gKnr4h"
       ],
+      "disabled": true,
       "name": "Horizontal Ticker",
       "settings": {
         "visibility": "always-display",
@@ -525,7 +513,6 @@
     "best-sellers",
     "comparison",
     "faq",
-    "divider",
     "horizontal_ticker_r4njxz"
   ]
 }

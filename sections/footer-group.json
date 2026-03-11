@@ -11,6 +11,22 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "section_divider_WwTtMa": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "custom",
+        "custom_shape_color": "#a8d8f0",
+        "background_color": "background-1",
+        "custom_background_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -70,7 +86,7 @@
         "margin_top": 0,
         "padding_top": 40,
         "padding_bottom": 24,
-        "custom_colors_background": "#1a5276",
+        "custom_colors_background": "#a8d8f0",
         "custom_gradient_background": "",
         "custom_colors_text": "#ffffff",
         "custom_colors_solid_button_background": "#ffffff",
@@ -80,6 +96,7 @@
     }
   },
   "order": [
+    "section_divider_WwTtMa",
     "footer"
   ]
 }
