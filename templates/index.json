@@ -175,7 +175,7 @@
         "shape_color": "custom",
         "custom_shape_color": "#89c4e1",
         "background_color": "background-1",
-        "custom_background_color": "#FFFFFF",
+        "custom_background_color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -461,7 +461,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "section",
-        "color_scheme": "background-2",
+        "color_scheme": "custom",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
         "video_muted_autoplay": true,
