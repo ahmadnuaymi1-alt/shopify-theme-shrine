@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "title": "Welcome to Kind Clouds",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h0"
           }
         },
@@ -24,7 +24,9 @@
           "type": "text",
           "settings": {
             "text": "Discover thoughtfully chosen products designed to bring comfort, joy, and ease into everyday life for you and the ones you love.",
-            "text_style": "subtitle"
+            "text_style": "subtitle",
+            "text_color": "#ffffff",
+            "text_size": "default"
           }
         }
       },
