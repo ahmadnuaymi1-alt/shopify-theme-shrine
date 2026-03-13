@@ -64,11 +64,23 @@
     <div class="image-with-text__grid grid grid--gapless grid--1-col{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %} animate-item">
       <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_content_position }}{% if section.settings.mobile_full_media_width %} image-with-text__media--mobile-full{% endif %} grid__item">
         <div
-          class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank or section.settings.video != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
+          {%- liquid
+            assign resolved_fallback = false
+            if section.settings.image == blank and section.settings.video == blank and section.settings.image_fallback != 'none' and product != blank
+              assign fb_idx = section.settings.image_fallback | plus: 0
+              assign resolved_fallback_img = product.images[fb_idx]
+              if resolved_fallback_img != blank
+                assign resolved_fallback = true
+              endif
+            endif
+          -%}
+          class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank or section.settings.video != blank or resolved_fallback %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
           {% if section.settings.height == 'adapt' and section.settings.video != blank %}
             style="padding-bottom: {{ 1 | divided_by: section.settings.video.aspect_ratio | times: 100 }}%;"
           {% elsif section.settings.height == 'adapt' and section.settings.image != blank %}
             style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+          {% elsif section.settings.height == 'adapt' and resolved_fallback %}
+            style="padding-bottom: {{ 1 | divided_by: resolved_fallback_img.aspect_ratio | times: 100 }}%;"
           {% endif %}
         >
           {%- if section.settings.video != blank -%}
@@ -102,6 +114,22 @@
               | image_url: width: 1500
               | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
             }}
+          {%- elsif section.settings.image_fallback != 'none' and product != blank -%}
+            {%- assign fallback_index = section.settings.image_fallback | plus: 0 -%}
+            {%- assign fallback_img = product.images[fallback_index] -%}
+            {%- if fallback_img != blank -%}
+              {%- capture sizes -%}
+                (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / {{ section.settings.mobile_image_quanlity }})
+              {%- endcapture -%}
+              {{
+                fallback_img
+                | image_url: width: 1500
+                | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500', alt: fallback_img.alt | escape
+              }}
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
           {%- else -%}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
@@ -254,6 +282,21 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_fallback",
+      "label": "Fallback to product image",
+      "info": "Used when no image is set above (e.g. metafield is empty). Only works on product pages.",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "0", "label": "1st product image" },
+        { "value": "1", "label": "2nd product image" },
+        { "value": "2", "label": "3rd product image" },
+        { "value": "3", "label": "4th product image" },
+        { "value": "4", "label": "5th product image" }
+      ],
+      "default": "none"
     },
     {
       "type": "header",
