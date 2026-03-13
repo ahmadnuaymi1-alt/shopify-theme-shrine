@@ -102,16 +102,22 @@
               | image_url: width: 1500
               | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
             }}
-          {%- elsif section.settings.image_fallback != 'none' and product.images[section.settings.image_fallback] != blank -%}
+          {%- elsif section.settings.image_fallback != 'none' and product != blank -%}
+            {%- assign fallback_index = section.settings.image_fallback | plus: 0 -%}
+            {%- assign fallback_img = product.images[fallback_index] -%}
+            {%- if fallback_img != blank -%}
             {%- capture sizes -%}
               (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
               (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / {{ section.settings.mobile_image_quanlity }})
             {%- endcapture -%}
             {{
-              product.images[section.settings.image_fallback]
+              fallback_img
               | image_url: width: 1500
               | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
             }}
+            {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
           {%- else -%}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
