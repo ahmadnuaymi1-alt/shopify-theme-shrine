@@ -706,11 +706,11 @@
         "collapsible_row_qNkCzj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What is your return policy?",
             "icon": "check_box",
             "filled_icon": false,
             "custom_icon": "shopify://shop_images/BenQ-LH860ST-5000-Lumen-1080P-Ultra-Short-Throw-Laser-Golf_-Projector-slight-top-view_4.png",
-            "row_content": "",
+            "row_content": "<p>We offer a simple 30-day return policy. For full eligibility details and return instructions, please visit our Return Policy page.</p>",
             "page": ""
           }
         }
