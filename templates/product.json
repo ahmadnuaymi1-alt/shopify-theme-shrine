@@ -64,10 +64,11 @@
             "text_1": "Text with icon",
             "text_2": "",
             "text_3": "",
-            "icon_scale": 120,
+            "icon_scale": 160,
             "icon_color": "#121212",
             "icon_1": "check_circle",
             "filled_icon_1": false,
+            "custom_icon_1": "shopify://shop_images/unnamed_4.jpg",
             "icon_2": "check_circle",
             "filled_icon_2": false,
             "icon_3": "check_circle",
@@ -95,10 +96,11 @@
             "text_1": "Text with icon",
             "text_2": "",
             "text_3": "",
-            "icon_scale": 120,
+            "icon_scale": 160,
             "icon_color": "#121212",
             "icon_1": "check_circle",
             "filled_icon_1": false,
+            "custom_icon_1": "shopify://shop_images/unnamed_4.jpg",
             "icon_2": "check_circle",
             "filled_icon_2": false,
             "icon_3": "check_circle",
@@ -126,10 +128,11 @@
             "text_1": "Text with icon",
             "text_2": "",
             "text_3": "",
-            "icon_scale": 120,
+            "icon_scale": 160,
             "icon_color": "#121212",
             "icon_1": "check_circle",
             "filled_icon_1": false,
+            "custom_icon_1": "shopify://shop_images/unnamed_4.jpg",
             "icon_2": "check_circle",
             "filled_icon_2": false,
             "icon_3": "check_circle",
@@ -412,20 +415,26 @@
         "padding_bottom": 24
       }
     },
-    "section_divider_fKnNkL": {
-      "type": "section-divider",
-      "name": "Section divider",
+    "ss_waves_a66teU": {
+      "type": "ss-waves",
+      "name": "SS - Wave",
       "settings": {
-        "visibility": "always-display",
-        "shape": "curved_3",
-        "flip_horizontal": false,
-        "flip_vertical": false,
-        "shape_color": "custom",
-        "custom_shape_color": "#89c4e1",
-        "background_color": "background-1",
-        "custom_background_color": "#89c4e1",
+        "wave_height": 310,
+        "wave_curvature": 420,
+        "wave_style": "less",
+        "wave_side": "0",
+        "animation": false,
+        "animation_duration": 5,
+        "background_color": "#ffffff",
+        "wave_color": "#89c4e1",
+        "margin_top": -132,
+        "margin_bottom": -12,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 260
       }
     },
     "image_with_text_FCF9iP": {
@@ -445,43 +454,36 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
-        },
-        "button_3zB4M7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "heading_VfgGGi",
-        "text_JeUNJj",
-        "button_3zB4M7"
+        "text_JeUNJj"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
+        "image": "shopify://shop_images/pThe_BenQ_AK700ST_is_the_ultimate_4K_short-throw_laser_projector_tailor-made_for_golf_simulation_and_home_entertainment._Featuring_4000_lumens_of_brightness_true_4K_UHD_resolution_and_0f6a5950-6bed-4db8-a61b-66509e82adda.png",
         "video_autoplay": false,
         "video_loop": true,
-        "height": "adapt",
+        "height": "medium",
         "color_scheme": "custom",
         "section_color_scheme": "custom",
         "full_desktop_width": false,
         "content_layout": "no-overlap",
-        "desktop_media_width": 50,
+        "desktop_media_width": 55,
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "mobile_full_media_width": false,
         "mobile_direction": "normal",
         "mobile_image_quanlity": "2",
         "mobile_content_alignment": "left",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 36,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40,
+        "desktop_padding_top": 64,
+        "desktop_padding_bottom": 80,
         "custom_colors_background": "#89c4e1",
         "custom_gradient_background": "",
         "custom_colors_text": "#ffffff",
@@ -497,7 +499,7 @@
       "name": "SS - Wave",
       "settings": {
         "wave_height": 310,
-        "wave_curvature": 330,
+        "wave_curvature": 420,
         "wave_style": "less",
         "wave_side": "180",
         "animation": false,
@@ -511,7 +513,7 @@
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
         "full_width": true,
-        "content_width": 260
+        "content_width": 300
       }
     },
     "ss_feature_13_g3ttAA": {
@@ -520,6 +522,7 @@
         "item_8BW4rt": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "heart",
             "title": "Eye Comfort",
             "text": "Reduces eye strain by blocking harmful blue light from screens, making digital time more comfortable."
@@ -528,6 +531,7 @@
         "item_94BAiY": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "time",
             "title": "Better Sleep",
             "text": "Improves sleep quality by minimizing blue light exposure, which can interfere with circadian rhythms."
@@ -536,6 +540,7 @@
         "item_MVLgQx": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "gift",
             "title": "Enhanced Protection",
             "text": "Shields your screen from scratches and impacts, extending the lifespan of your device."
@@ -544,6 +549,7 @@
         "item_ffdhLw": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "plant",
             "title": "Anti-Glare",
             "text": "Reduces glare from sunlight and artificial lighting, improving visibility in bright conditions."
@@ -552,6 +558,7 @@
         "item_hJxqRa": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "bi-ecology",
             "title": "Touch Sensivity",
             "text": "Maintains the original touch responsiveness of your device, ensuring a seamless user experience."
@@ -560,6 +567,7 @@
         "item_xekyat": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "mobile",
             "title": "Easy Installation",
             "text": "Designed for a bubble-free application, making it simple to apply without professional assistance."
@@ -593,12 +601,12 @@
         "image_position": "center",
         "image_position_mobile": "first",
         "image_ratio": "portrait",
-        "image_ratio_mobile": "portrait",
-        "image_radius": 0,
+        "image_ratio_mobile": "original",
+        "image_radius": 16,
         "image_border_thickness": 0,
         "content_align": "center",
         "content_align_mobile": "center",
-        "icon_size": 50,
+        "icon_size": 100,
         "icon_size_mobile": 40,
         "title_custom": false,
         "title_font": "josefin_sans_n4",
@@ -740,7 +748,7 @@
   "order": [
     "main",
     "related-products",
-    "section_divider_fKnNkL",
+    "ss_waves_a66teU",
     "image_with_text_FCF9iP",
     "ss_waves_CYDdb6",
     "ss_feature_13_g3ttAA",
