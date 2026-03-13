@@ -526,7 +526,7 @@
             "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "heart",
             "title": "{{ product.metafields.custom.feature_1_header.value }}",
-            "text": ""
+            "text": "{{ product.metafields.custom.feature_1_body.value }}"
           }
         },
         "item_94BAiY": {
@@ -535,7 +535,7 @@
             "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "time",
             "title": "{{ product.metafields.custom.feature_2_header.value }}",
-            "text": "Improves sleep quality by minimizing blue light exposure, which can interfere with circadian rhythms."
+            "text": "{{ product.metafields.custom.feature_2_body.value }}"
           }
         },
         "item_MVLgQx": {
@@ -544,7 +544,7 @@
             "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "gift",
             "title": "{{ product.metafields.custom.feature_3_header.value }}",
-            "text": "Shields your screen from scratches and impacts, extending the lifespan of your device."
+            "text": "{{ product.metafields.custom.feature_3_body.value }}"
           }
         },
         "item_ffdhLw": {
@@ -552,8 +552,8 @@
           "settings": {
             "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "plant",
-            "title": "{{ product.metafields.custom.feature_3_header.value }}",
-            "text": "Reduces glare from sunlight and artificial lighting, improving visibility in bright conditions."
+            "title": "{{ product.metafields.custom.feature_4_header.value }}",
+            "text": "{{ product.metafields.custom.feature_4_body.value }}"
           }
         },
         "item_hJxqRa": {
@@ -562,7 +562,7 @@
             "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "bi-ecology",
             "title": "{{ product.metafields.custom.feature_5_header.value }}",
-            "text": "Maintains the original touch responsiveness of your device, ensuring a seamless user experience."
+            "text": "{{ product.metafields.custom.feature_5_body.value }}"
           }
         },
         "item_xekyat": {
@@ -571,7 +571,7 @@
             "image": "shopify://shop_images/unnamed_4.jpg",
             "icon": "mobile",
             "title": "{{ product.metafields.custom.feature_6_header.value }}",
-            "text": "Designed for a bubble-free application, making it simple to apply without professional assistance."
+            "text": "{{ product.metafields.custom.feature_6_body.value }}"
           }
         }
       },
