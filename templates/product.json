@@ -465,6 +465,7 @@
         "display_id": false,
         "visibility": "always-display",
         "image": "{{ product.metafields.custom.image_for_image_text_section_1.value }}",
+        "image_fallback": "0",
         "video_autoplay": false,
         "video_loop": true,
         "height": "medium",
