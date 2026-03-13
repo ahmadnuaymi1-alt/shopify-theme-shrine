@@ -435,7 +435,7 @@
           "type": "heading",
           "settings": {
             "title": "Image with text",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
         },
@@ -484,7 +484,7 @@
         "desktop_padding_bottom": 36,
         "custom_colors_background": "#89c4e1",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
+        "custom_colors_text": "#ffffff",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
@@ -502,7 +502,7 @@
         "wave_side": "180",
         "animation": false,
         "animation_duration": 5,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "wave_color": "#89c4e1",
         "margin_top": 0,
         "margin_bottom": -128,
@@ -514,10 +514,26 @@
         "content_width": 260
       }
     },
-    "ss_feature_13_xUxt4T": {
+    "ss_feature_13_g3ttAA": {
       "type": "ss-feature-13",
       "blocks": {
-        "item_UBtwQt": {
+        "item_8BW4rt": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "title": "Eye Comfort",
+            "text": "Reduces eye strain by blocking harmful blue light from screens, making digital time more comfortable."
+          }
+        },
+        "item_94BAiY": {
+          "type": "item",
+          "settings": {
+            "icon": "time",
+            "title": "Better Sleep",
+            "text": "Improves sleep quality by minimizing blue light exposure, which can interfere with circadian rhythms."
+          }
+        },
+        "item_MVLgQx": {
           "type": "item",
           "settings": {
             "icon": "gift",
@@ -525,7 +541,7 @@
             "text": "Shields your screen from scratches and impacts, extending the lifespan of your device."
           }
         },
-        "item_RFNnJ3": {
+        "item_ffdhLw": {
           "type": "item",
           "settings": {
             "icon": "plant",
@@ -533,32 +549,34 @@
             "text": "Reduces glare from sunlight and artificial lighting, improving visibility in bright conditions."
           }
         },
-        "item_ThGMLL": {
+        "item_hJxqRa": {
           "type": "item",
           "settings": {
-            "icon": "plant",
-            "title": "Title",
-            "text": "Text"
+            "icon": "bi-ecology",
+            "title": "Touch Sensivity",
+            "text": "Maintains the original touch responsiveness of your device, ensuring a seamless user experience."
           }
         },
-        "item_wCD8JY": {
+        "item_xekyat": {
           "type": "item",
           "settings": {
-            "icon": "plant",
-            "title": "Title",
-            "text": "Text"
+            "icon": "mobile",
+            "title": "Easy Installation",
+            "text": "Designed for a bubble-free application, making it simple to apply without professional assistance."
           }
         }
       },
       "block_order": [
-        "item_UBtwQt",
-        "item_RFNnJ3",
-        "item_ThGMLL",
-        "item_wCD8JY"
+        "item_8BW4rt",
+        "item_94BAiY",
+        "item_MVLgQx",
+        "item_ffdhLw",
+        "item_hJxqRa",
+        "item_xekyat"
       ],
       "name": "SS - Feature #13",
       "settings": {
-        "heading": "<h2>Why Buy This Item</h2>",
+        "heading": "<h2>Why we are better</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 52,
@@ -571,12 +589,12 @@
         "items_gap_mobile": 30,
         "items_mt": 24,
         "items_mt_mobile": 22,
-        "image": "shopify://shop_images/pThe_BenQ_AK700ST_is_the_ultimate_4K_short-throw_laser_projector_tailor-made_for_golf_simulation_and_home_entertainment._Featuring_4000_lumens_of_brightness_true_4K_UHD_resolution_and_96582e7e-79c5-4263-a3f4-4aa1b9f1067f.png",
+        "image": "shopify://shop_images/pThe_BenQ_AK700ST_is_the_ultimate_4K_short-throw_laser_projector_tailor-made_for_golf_simulation_and_home_entertainment._Featuring_4000_lumens_of_brightness_true_4K_UHD_resolution_and_74ee799b-9177-42b9-9c40-316058632441.png",
         "image_position": "center",
         "image_position_mobile": "first",
         "image_ratio": "portrait",
         "image_ratio_mobile": "portrait",
-        "image_radius": 14,
+        "image_radius": 0,
         "image_border_thickness": 0,
         "content_align": "center",
         "content_align_mobile": "center",
@@ -695,7 +713,7 @@
         "visibility": "always-display",
         "caption": "",
         "title": "Collapsible content",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -710,12 +728,12 @@
         "display_top_border": true,
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_contaner_colors_background": "#FFFFFF",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
         "custom_container_gradient_background": "",
-        "custom_contaner_colors_text": "#2E2A39"
+        "custom_contaner_colors_text": "#2e2a39"
       }
     }
   },
@@ -725,7 +743,7 @@
     "section_divider_fKnNkL",
     "image_with_text_FCF9iP",
     "ss_waves_CYDdb6",
-    "ss_feature_13_xUxt4T",
+    "ss_feature_13_g3ttAA",
     "collapsible_content_bdGMNr"
   ]
 }
