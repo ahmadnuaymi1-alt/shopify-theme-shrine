@@ -443,7 +443,7 @@
         "heading_VfgGGi": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
+            "title": "{{ product.metafields.custom.image_with_text_header.value }}",
             "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
@@ -451,7 +451,7 @@
         "text_JeUNJj": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>{{ product.metafields.custom.image_with_text_body | metafield_tag }}</p>",
             "text_style": "body"
           }
         }
@@ -464,7 +464,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "image": "shopify://shop_images/pThe_BenQ_AK700ST_is_the_ultimate_4K_short-throw_laser_projector_tailor-made_for_golf_simulation_and_home_entertainment._Featuring_4000_lumens_of_brightness_true_4K_UHD_resolution_and_0f6a5950-6bed-4db8-a61b-66509e82adda.png",
+        "image": "{{ product.metafields.custom.image_for_image_text_section_1.value }}",
         "video_autoplay": false,
         "video_loop": true,
         "height": "medium",
@@ -623,7 +623,7 @@
         "text_height": 150,
         "text_mt": 10,
         "text_mt_mobile": 6,
-        "text_hide_mobile": true,
+        "mobile_layout": "grid",
         "icon_color": "#131313",
         "title_color": "#131313",
         "text_color": "#131313",
