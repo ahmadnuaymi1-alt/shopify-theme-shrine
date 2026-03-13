@@ -695,11 +695,11 @@
         "collapsible_row_DYdeek": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How long does delivery take?",
             "icon": "check_box",
             "filled_icon": false,
             "custom_icon": "shopify://shop_images/BenQ-LH860ST-5000-Lumen-1080P-Ultra-Short-Throw-Laser-Golf_-Projector-slight-top-view_4.png",
-            "row_content": "",
+            "row_content": "<p>Orders are typically processed and delivered within the following timeframes:</p><ul><li><strong>Handling Time:</strong> 1 to 2 business days (Monday to Friday)<br/></li><li><strong>Transit Time:</strong> 6 to 8 business days (Monday to Friday)<br/></li><li><strong>Estimated Total Delivery Time:</strong> 7 to 10 business days (Monday to Friday)</li></ul>",
             "page": ""
           }
         },
