@@ -743,7 +743,7 @@
         "collapse_icon": "carret",
         "display_top_border": true,
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 60,
         "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
