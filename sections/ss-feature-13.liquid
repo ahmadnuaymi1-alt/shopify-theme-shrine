@@ -308,7 +308,15 @@ For inquiries or permissions, contact daniel@section.store
   </style>
 {% endif %}
 
-{% if title_custom %}
+{% if section.settings.title_use_bogue %}
+  <style>
+    .feature-title-{{ section.id }} {
+      font-family: var(--font-heading-family, 'Bogue', serif);
+      font-weight: 700;
+      font-style: normal;
+    }
+  </style>
+{% elsif title_custom %}
   <style>
     .feature-title-{{ section.id }} {
       font-family: {{ title_font.family }}, {{ title_font.fallback_families }};
@@ -1066,6 +1074,13 @@ For inquiries or permissions, contact daniel@section.store
       {
         "type": "header",
         "content": "Title Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "title_use_bogue",
+        "label": "Use Bogue Bold",
+        "info": "Overrides the custom font picker below",
+        "default": false
       },
       {
         "type": "checkbox",
