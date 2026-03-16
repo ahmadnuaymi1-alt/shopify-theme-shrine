@@ -455,7 +455,14 @@ For inquiries or permissions, contact daniel@section.store
       {% if image_position_mobile == "first" %}
         <div class="feature-image-{{ section.id }} feature-image-mobile-{{ section.id }}">
           {% if image != blank %}
-            <img src="{{ image | image_url: width: 1800 }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+            <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+          {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
+            {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+            {% if fallback_img != blank %}
+              <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+            {% else %}
+              {{ 'collection-3' | placeholder_svg_tag }}
+            {% endif %}
           {% else %}
             {{ 'collection-3' | placeholder_svg_tag }}
           {% endif %}
@@ -553,7 +560,14 @@ For inquiries or permissions, contact daniel@section.store
         {% if image_position == "first" %}
           <div class="feature-image-{{ section.id }} feature-image-desktop-{{ section.id }}">
             {% if image != blank %}
-              <img src="{{ image | image_url: width: 1800 }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+              <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+            {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
+              {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+              {% if fallback_img != blank %}
+                <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+              {% else %}
+                {{ 'collection-3' | placeholder_svg_tag }}
+              {% endif %}
             {% else %}
               {{ 'collection-3' | placeholder_svg_tag }}
             {% endif %}
@@ -653,7 +667,14 @@ For inquiries or permissions, contact daniel@section.store
         {% if image_position == "center" %}
           <div class="feature-image-{{ section.id }} feature-image-desktop-{{ section.id }}">
             {% if image != blank %}
-              <img src="{{ image | image_url: width: 1800 }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+              <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+            {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
+              {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+              {% if fallback_img != blank %}
+                <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+              {% else %}
+                {{ 'collection-3' | placeholder_svg_tag }}
+              {% endif %}
             {% else %}
               {{ 'collection-3' | placeholder_svg_tag }}
             {% endif %}
@@ -752,7 +773,14 @@ For inquiries or permissions, contact daniel@section.store
           {% if image_position == "last" %}
             <div class="feature-image-{{ section.id }} feature-image-desktop-{{ section.id }}">
               {% if image != blank %}
-                <img src="{{ image | image_url: width: 1800 }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+                <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+              {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
+                {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+                {% if fallback_img != blank %}
+                  <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+                {% else %}
+                  {{ 'collection-3' | placeholder_svg_tag }}
+                {% endif %}
               {% else %}
                 {{ 'collection-3' | placeholder_svg_tag }}
               {% endif %}
@@ -764,7 +792,14 @@ For inquiries or permissions, contact daniel@section.store
       {% if image_position_mobile == "last" %}
         <div class="feature-image-{{ section.id }} feature-image-mobile-{{ section.id }}">
           {% if image != blank %}
-            <img src="{{ image | image_url: width: 1800 }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+            <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+          {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
+            {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+            {% if fallback_img != blank %}
+              <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+            {% else %}
+              {{ 'collection-3' | placeholder_svg_tag }}
+            {% endif %}
           {% else %}
             {{ 'collection-3' | placeholder_svg_tag }}
           {% endif %}
@@ -908,6 +943,21 @@ For inquiries or permissions, contact daniel@section.store
         "type": "image_picker",
         "id": "image",
         "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "fallback_image_index",
+        "label": "Fallback Product Image",
+        "info": "Shown if no image is selected above. Picks from the product image gallery.",
+        "default": "none",
+        "options": [
+          { "label": "None", "value": "none" },
+          { "label": "1st product image", "value": "0" },
+          { "label": "2nd product image", "value": "1" },
+          { "label": "3rd product image", "value": "2" },
+          { "label": "4th product image", "value": "3" },
+          { "label": "5th product image", "value": "4" }
+        ]
       },
       {
         "type": "select",
