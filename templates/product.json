@@ -39,6 +39,19 @@
             "margin_bottom": 15
           }
         },
+        "divider_BYfdec": {
+          "type": "divider",
+          "settings": {
+            "color": "#e1e1e1",
+            "height": 1,
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "text_H6i4Lk": {
           "type": "text",
           "settings": {
@@ -323,6 +336,7 @@
       "block_order": [
         "title",
         "price",
+        "divider_BYfdec",
         "text_H6i4Lk",
         "text_zhfYEk",
         "text_pgdmdH",
