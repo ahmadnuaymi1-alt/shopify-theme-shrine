@@ -710,7 +710,7 @@
             "icon": "check_box",
             "filled_icon": false,
             "custom_icon": "shopify://shop_images/BenQ-LH860ST-5000-Lumen-1080P-Ultra-Short-Throw-Laser-Golf_-Projector-slight-top-view_4.png",
-            "row_content": "<p>We offer a simple 30-day return policy. For full eligibility details and return instructions, please visit our Return Policy page.</p>",
+            "row_content": "<p>We offer a simple 30-day <a href=\"https://kindclouds.com/policies/refund-policy\" title=\"https://kindclouds.com/policies/refund-policy\">return policy</a>. For full eligibility details and step-by-step instructions, please visit our <a href=\"https://kindclouds.com/policies/refund-policy\" title=\"https://kindclouds.com/policies/refund-policy\">Return Policy page</a>.</p>",
             "page": ""
           }
         }
