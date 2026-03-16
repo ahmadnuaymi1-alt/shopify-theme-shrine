@@ -598,7 +598,7 @@
         "items_gap_mobile": 30,
         "items_mt": 24,
         "items_mt_mobile": 22,
-        "fallback_image_index": "1",
+        "fallback_image_index": "2",
         "image_position": "center",
         "image_position_mobile": "first",
         "image_ratio": "portrait",
