@@ -50,8 +50,8 @@
         "color_scheme": "background-1",
         "transparent_container_color": "white",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "trust-bar": {
@@ -163,7 +163,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "padding_horizontal": 0,
-        "padding_horizontal_mobile": 1.5,
+        "padding_horizontal_mobile": 0,
         "full_width": true,
         "content_width": 120
       }
@@ -204,7 +204,7 @@
         "comparison-row-3": {
           "type": "row",
           "settings": {
-            "benefit": "30-day happiness guarantee",
+            "benefit": "30-day returns",
             "us": true,
             "others": false,
             "others_2": false,
@@ -214,7 +214,7 @@
         "comparison-row-4": {
           "type": "row",
           "settings": {
-            "benefit": "Trusted by thousands of families",
+            "benefit": "Trusted by many families",
             "us": true,
             "others": false,
             "others_2": false,
@@ -224,7 +224,7 @@
         "comparison-row-5": {
           "type": "row",
           "settings": {
-            "benefit": "Dedicated family support",
+            "benefit": "Dedicated support",
             "us": true,
             "others": false,
             "others_2": false,
