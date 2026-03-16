@@ -90,7 +90,7 @@
             "icon": "favorite",
             "filled_icon": false,
             "title": "Family Approved",
-            "text": "<p>Trusted by 10,000+ families</p>"
+            "text": "<p>Trusted by many families</p>"
           }
         }
       },
@@ -398,7 +398,7 @@
             "heading": "What is your return policy?",
             "icon": "check_box",
             "filled_icon": false,
-            "row_content": "<p>We offer a simple 30-day return policy. For full eligibility details and step-by-step instructions, please visit our <a href=\"https://kindclouds.com/policies/refund-policy\" title=\"https://kindclouds.com/policies/refund-policy\">Return Policy page</a>.</p>",
+            "row_content": "<p>We offer a simple 30-day <a href=\"https://kindclouds.com/policies/refund-policy\" title=\"https://kindclouds.com/policies/refund-policy\">return policy</a>. For full eligibility details and step-by-step instructions, please visit our <a href=\"https://kindclouds.com/policies/refund-policy\" title=\"https://kindclouds.com/policies/refund-policy\">Return Policy page</a>.</p>",
             "page": ""
           }
         },
