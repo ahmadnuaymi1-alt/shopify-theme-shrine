@@ -370,7 +370,7 @@
         "timeline_color": "accent-1",
         "media_size": "medium",
         "media_position": "left",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "stacked",
         "desktop_thumbnails_count": 5,
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -382,7 +382,7 @@
         "mobile_thumbnails": "hide",
         "mobile_thumbnails_count": 5,
         "mobile_scroll_padding_percentage": 0,
-        "mobile_scroll_padding_pixels": 14,
+        "mobile_scroll_padding_pixels": 0,
         "enable_mobile_outher_spacing": false,
         "mobile_slides_container_width": 100,
         "mobile_slides_inner_width": 100,
@@ -710,7 +710,7 @@
             "icon": "check_box",
             "filled_icon": false,
             "custom_icon": "shopify://shop_images/BenQ-LH860ST-5000-Lumen-1080P-Ultra-Short-Throw-Laser-Golf_-Projector-slight-top-view_4.png",
-            "row_content": "<p>We offer a simple 30-day <a href=\"https://kindclouds.com/policies/refund-policy\" title=\"https://kindclouds.com/policies/refund-policy\">return policy</a>. For full eligibility details and step-by-step instructions, please visit our <a href=\"https://kindclouds.com/policies/refund-policy\" title=\"https://kindclouds.com/policies/refund-policy\">Return Policy page</a>.</p>",
+            "row_content": "<p>We offer a simple 30-day return policy. For full eligibility details and return instructions, please visit our Return Policy page.</p>",
             "page": ""
           }
         }
