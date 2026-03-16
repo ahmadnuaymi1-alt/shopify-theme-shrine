@@ -457,7 +457,8 @@ For inquiries or permissions, contact daniel@section.store
           {% if image != blank %}
             <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
           {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
-            {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+            {% assign fi = section.settings.fallback_image_index | plus: 0 %}
+            {% assign fallback_img = product.images[fi] %}
             {% if fallback_img != blank %}
               <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
             {% else %}
@@ -562,7 +563,8 @@ For inquiries or permissions, contact daniel@section.store
             {% if image != blank %}
               <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
             {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
-              {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+              {% assign fi = section.settings.fallback_image_index | plus: 0 %}
+            {% assign fallback_img = product.images[fi] %}
               {% if fallback_img != blank %}
                 <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
               {% else %}
@@ -669,7 +671,8 @@ For inquiries or permissions, contact daniel@section.store
             {% if image != blank %}
               <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
             {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
-              {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+              {% assign fi = section.settings.fallback_image_index | plus: 0 %}
+            {% assign fallback_img = product.images[fi] %}
               {% if fallback_img != blank %}
                 <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
               {% else %}
@@ -775,7 +778,8 @@ For inquiries or permissions, contact daniel@section.store
               {% if image != blank %}
                 <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
               {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
-                {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+                {% assign fi = section.settings.fallback_image_index | plus: 0 %}
+            {% assign fallback_img = product.images[fi] %}
                 {% if fallback_img != blank %}
                   <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
                 {% else %}
@@ -794,7 +798,8 @@ For inquiries or permissions, contact daniel@section.store
           {% if image != blank %}
             <img src="{{ image | image_url }}" alt="{{ image.alt }}" {% if lazy %}loading="lazy"{% endif %}>
           {% elsif section.settings.fallback_image_index != 'none' and product != blank %}
-            {% assign fallback_img = product.images[section.settings.fallback_image_index] %}
+            {% assign fi = section.settings.fallback_image_index | plus: 0 %}
+            {% assign fallback_img = product.images[fi] %}
             {% if fallback_img != blank %}
               <img src="{{ fallback_img | image_url }}" alt="{{ fallback_img.alt }}" {% if lazy %}loading="lazy"{% endif %}>
             {% else %}

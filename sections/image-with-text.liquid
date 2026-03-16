@@ -63,12 +63,23 @@
   <div class="image-with-text image-with-text--{{ section.settings.content_layout }} image-with-text--mobile-{{ section.settings.mobile_direction }}{% if section.settings.full_desktop_width and section.settings.content_layout != 'overlap' %} image-with-text--desktop-full-width{% endif %} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if same_bgs %} same-colors{% else %} different-colors{% endif %}{{ padding_class }} section-{{ section.id }}-padding">
     <div class="image-with-text__grid grid grid--gapless grid--1-col{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %} animate-item">
       <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_content_position }}{% if section.settings.mobile_full_media_width %} image-with-text__media--mobile-full{% endif %} grid__item">
+        {%- liquid
+          if section.settings.image_fallback != 'none' and product != blank
+            assign fi = section.settings.image_fallback | plus: 0
+            assign fallback_img = product.images[fi]
+            if fallback_img != blank
+              assign has_fallback_image = true
+            endif
+          endif
+        -%}
         <div
-          class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank or section.settings.video != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
+          class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-scheme-{{ section.id }} color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank or section.settings.video != blank or has_fallback_image %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
           {% if section.settings.height == 'adapt' and section.settings.video != blank %}
             style="padding-bottom: {{ 1 | divided_by: section.settings.video.aspect_ratio | times: 100 }}%;"
           {% elsif section.settings.height == 'adapt' and section.settings.image != blank %}
             style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+          {% elsif section.settings.height == 'adapt' and has_fallback_image %}
+            style="padding-bottom: {{ 1 | divided_by: fallback_img.aspect_ratio | times: 100 }}%;"
           {% endif %}
         >
           {%- if section.settings.video != blank -%}
