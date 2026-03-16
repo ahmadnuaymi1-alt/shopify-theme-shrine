@@ -34,7 +34,7 @@
           "type": "text",
           "settings": {
             "heading": "About",
-            "subtext": "<p>Store Name: Kind Clouds<br>Address: <a href=\"https://www.google.com/search?q=163%20Dupont%20St%2C%20Brooklyn%2C%20New%20York%2C%2011222%2C%20United%20States\" target=\"_blank\" title=\"Our Address\">163 Dupont St, Brooklyn, New York, 11222, United States</a><br>Email: <a href=\"mailto:info@kindclouds.com\" title=\"Email Us\">info@kindclouds.com</a><br>Number: <a href=\"tel:+16464535759\" title=\"Call Us\">+1 (646) 453-5759</a><br>Hours of Operation: Monday to Friday, 9:00 AM to 5:00 PM (EST)<br>We aim to respond to inquiries within 1 to 2 business days.</p>",
+            "subtext": "<p>Store Name: Kind Clouds<br/>Address: <a href=\"https://www.google.com/search?q=163+Dupont+St,+Brooklyn,+New+York,+11222,+United+States\" target=\"_blank\" title=\"163 Dupont St, Brooklyn, New York, 11222, United States\">163 Dupont St, Brooklyn, New York, 11222, United States</a><br/>Email: <a href=\"mailto:info@kindclouds.com\" title=\"Email Us\">info@kindclouds.com</a><br/>Number: <a href=\"tel:+16464535759\" title=\"Call Us\">+1 (646) 453-5759</a><br/>Hours of Operation: Monday to Friday, 9:00 AM to 5:00 PM (EST)<br/>We aim to respond to inquiries within 1 to 2 business days.</p>",
             "width_desktop": 4,
             "width_mobile": "2"
           }
