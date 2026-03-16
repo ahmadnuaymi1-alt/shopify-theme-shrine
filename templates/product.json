@@ -598,7 +598,7 @@
         "items_gap_mobile": 30,
         "items_mt": 24,
         "items_mt_mobile": 22,
-        "image": "shopify://shop_images/pThe_BenQ_AK700ST_is_the_ultimate_4K_short-throw_laser_projector_tailor-made_for_golf_simulation_and_home_entertainment._Featuring_4000_lumens_of_brightness_true_4K_UHD_resolution_and_74ee799b-9177-42b9-9c40-316058632441.png",
+        "fallback_image_index": "1",
         "image_position": "center",
         "image_position_mobile": "first",
         "image_ratio": "portrait",
