@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_hero": {
+          "type": "image",
+          "settings": {
+            "image": "[REPLACE: Upload hero image to Shopify Files]",
+            "subheading": "Welcome to [Store Name]",
+            "title": "Designed for the Way You Live",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 51,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": ["image_hero"],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "md",
+        "show_initial_transition": true,
+        "autoplay": false,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#0a0a0a",
+        "controls_color": "#ffffff"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "[REPLACE: Collection handle]",
+            "products_count": 4,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": ["collection-1"],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "ss_waves_top": {
+      "type": "ss-waves",
+      "name": "SS - Wave",
+      "settings": {
+        "wave_height": 280,
+        "wave_curvature": 370,
+        "wave_style": "less",
+        "wave_side": "0",
+        "animation": false,
+        "animation_duration": 5,
+        "background_color": "#ffffff",
+        "wave_color": "#f2e7ce",
+        "margin_top": -192,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "About [Store Name]"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality products, curated for you",
+            "heading_tag": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>[REPLACE: 1-2 sentence brand description. Example: We believe everyone deserves access to great products without the premium price tag. From everyday essentials to unique finds, [Store Name] is your one-stop destination for quality goods shipped directly to your door.]</p>"
+          }
+        }
+      },
+      "block_order": ["subheading", "heading", "paragraph"],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "image": "[REPLACE: Upload about-us image to Shopify Files]",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "ss_waves_bottom": {
+      "type": "ss-waves",
+      "name": "SS - Wave",
+      "settings": {
+        "wave_height": 280,
+        "wave_curvature": 370,
+        "wave_style": "less",
+        "wave_side": "180",
+        "animation": false,
+        "animation_duration": 5,
+        "background_color": "#ffffff",
+        "wave_color": "#f2e7ce",
+        "margin_top": -16,
+        "margin_bottom": -32,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How long does delivery take?",
+            "answer": "<p>Orders are processed quickly and delivered within:</p><ul><li><strong>Handling time:</strong> 1 to 2 business days (Monday to Friday)<br/></li><li><strong>Transit time:</strong> 6 to 8 business days (Monday to Friday)<br/></li><li><strong>Estimated delivery:</strong> 7 to 10 business days total (Monday to Friday)</li></ul>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>We offer a 30-day hassle-free return policy. For full eligibility details and step-by-step instructions, please visit our Return Policy page.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Are your products safe for babies and pets?",
+            "answer": "<p>Yes, your safety matters to us. All products are carefully selected and made from non-toxic, child-safe, and pet-friendly materials.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>Currently, we ship within the United States only.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How do I contact customer support?",
+            "answer": "<p>You can reach us through our Contact Us page, or email us directly at <a href=\"mailto:[REPLACE: email]\" title=\"[REPLACE: email]\">[REPLACE: email]</a>. You may also call us at <a href=\"tel:[REPLACE: phone]\" title=\"[REPLACE: phone]\">[REPLACE: phone]</a></p>"
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Got questions?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collections",
+    "ss_waves_top",
+    "image-with-text",
+    "ss_waves_bottom",
+    "faq"
+  ]
+}

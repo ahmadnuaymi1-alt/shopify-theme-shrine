@@ -1,0 +1,186 @@
+[
+  {
+    "namespace": "custom",
+    "key": "image_with_text_header",
+    "name": "Image with Text Header",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Heading for the image-with-text section on the product page"
+  },
+  {
+    "namespace": "custom",
+    "key": "image_with_text_body",
+    "name": "Image with Text Body",
+    "type": "multi_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Body text for the image-with-text section on the product page"
+  },
+  {
+    "namespace": "custom",
+    "key": "image_for_image_text_section_1",
+    "name": "Image for Image Text Section",
+    "type": "file_reference",
+    "ownerType": "PRODUCT",
+    "description": "Image for the image-with-text section on the product page"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_1_header",
+    "name": "Feature 1 Header",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Title for product feature 1"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_1_body",
+    "name": "Feature 1 Body",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Description for product feature 1"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_2_header",
+    "name": "Feature 2 Header",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Title for product feature 2"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_2_body",
+    "name": "Feature 2 Body",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Description for product feature 2"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_3_header",
+    "name": "Feature 3 Header",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Title for product feature 3"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_3_body",
+    "name": "Feature 3 Body",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Description for product feature 3"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_4_header",
+    "name": "Feature 4 Header",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Title for product feature 4"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_4_body",
+    "name": "Feature 4 Body",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Description for product feature 4"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_5_header",
+    "name": "Feature 5 Header",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Title for product feature 5"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_5_body",
+    "name": "Feature 5 Body",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Description for product feature 5"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_6_header",
+    "name": "Feature 6 Header",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Title for product feature 6"
+  },
+  {
+    "namespace": "custom",
+    "key": "feature_6_body",
+    "name": "Feature 6 Body",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Description for product feature 6"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_q1",
+    "name": "FAQ Question 1",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ question 1"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_a1",
+    "name": "FAQ Answer 1",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ answer 1"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_q2",
+    "name": "FAQ Question 2",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ question 2"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_a2",
+    "name": "FAQ Answer 2",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ answer 2"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_q3",
+    "name": "FAQ Question 3",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ question 3"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_a3",
+    "name": "FAQ Answer 3",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ answer 3"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_q4",
+    "name": "FAQ Question 4",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ question 4"
+  },
+  {
+    "namespace": "custom",
+    "key": "faq_a4",
+    "name": "FAQ Answer 4",
+    "type": "single_line_text_field",
+    "ownerType": "PRODUCT",
+    "description": "Product FAQ answer 4"
+  }
+]
