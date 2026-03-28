@@ -102,6 +102,8 @@
               {% render 'cart-progress-bar', block: block, items_count: non_upsell_count %}
             {% when 'checkpoints_bar' %}
               {% render 'cart-checkpoints-bar', block: block, items_count: non_upsell_count %}
+            {% when 'volume_discount_bar' %}
+              {% render 'cart-volume-discount-bar', block: block %}
             {% when 'countdown_timer' %}
               {% capture timer %}
                 <countdown-timer data-duration="{{ block.settings.timer_duration }}"></countdown-timer>

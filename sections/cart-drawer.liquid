@@ -1326,6 +1326,159 @@
       ]
     },
     {
+      "type": "volume_discount_bar",
+      "name": "Volume discount bar",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Shows a progress bar based on same-product quantity in the cart. Tracks the highest quantity of any single product and displays discount tier progress."
+        },
+        {
+          "type": "header",
+          "content": "Tier 1"
+        },
+        {
+          "type": "number",
+          "id": "tier_1_qty",
+          "label": "Quantity needed",
+          "default": 2
+        },
+        {
+          "type": "number",
+          "id": "tier_1_percent",
+          "label": "Discount percentage",
+          "default": 12
+        },
+        {
+          "type": "inline_richtext",
+          "id": "tier_1_label",
+          "label": "Checkpoint label",
+          "default": "12% OFF",
+          "info": "Displayed under the checkpoint icon."
+        },
+        {
+          "type": "header",
+          "content": "Tier 2"
+        },
+        {
+          "type": "checkbox",
+          "id": "tier_2_enabled",
+          "label": "Enable tier 2",
+          "default": true
+        },
+        {
+          "type": "number",
+          "id": "tier_2_qty",
+          "label": "Quantity needed",
+          "default": 3
+        },
+        {
+          "type": "number",
+          "id": "tier_2_percent",
+          "label": "Discount percentage",
+          "default": 15
+        },
+        {
+          "type": "inline_richtext",
+          "id": "tier_2_label",
+          "label": "Checkpoint label",
+          "default": "15% OFF",
+          "info": "Displayed under the checkpoint icon."
+        },
+        {
+          "type": "header",
+          "content": "Messages"
+        },
+        {
+          "type": "text",
+          "id": "progress_message",
+          "label": "Progress message",
+          "default": "Add [amount] more of the same product for [next_tier]!",
+          "info": "Shown before reaching tier 1. Use [amount] for quantity needed and [next_tier] for the next discount."
+        },
+        {
+          "type": "text",
+          "id": "partial_message",
+          "label": "Partial success message",
+          "default": "You unlocked [current_tier]! Add [amount] more for [next_tier]!",
+          "info": "Shown after tier 1 but before tier 2. Use [current_tier], [amount], [next_tier]."
+        },
+        {
+          "type": "text",
+          "id": "success_message",
+          "label": "Success message",
+          "default": "You unlocked the maximum discount!",
+          "info": "Shown when all tiers are reached."
+        },
+        {
+          "type": "header",
+          "content": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "icon",
+          "default": "sell",
+          "label": "Icon",
+          "info": "[View all available icons](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.platform=web)."
+        },
+        {
+          "type": "checkbox",
+          "id": "icon_filled",
+          "default": false,
+          "label": "Filled icon"
+        },
+        {
+          "type": "select",
+          "id": "accent_color",
+          "label": "Accent color",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "Accent 1"
+            },
+            {
+              "value": "accent-2",
+              "label": "Accent 2"
+            },
+            {
+              "value": "outline-button",
+              "label": "Outline button"
+            },
+            {
+              "value": "text",
+              "label": "Text"
+            }
+          ],
+          "default": "accent-1"
+        },
+        {
+          "type": "header",
+          "content": "Block margin"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "min": 0,
+          "max": 45,
+          "step": 3,
+          "unit": "px",
+          "label": "Top margin",
+          "default": 15
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "min": 0,
+          "max": 45,
+          "step": 3,
+          "unit": "px",
+          "label": "Bottom margin",
+          "default": 15
+        }
+      ]
+    },
+    {
       "type": "product_upsells",
       "name": "Product upsells",
       "settings": [

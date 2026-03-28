@@ -1,0 +1,119 @@
+{% comment %}
+  Renders a volume discount progress bar in the cart drawer.
+  Tracks the highest same-product quantity and shows progress toward discount tiers.
+
+  Accepts:
+  - block: {Object} Block with settings for tier config, messages, styling
+
+  Usage:
+  {% render 'cart-volume-discount-bar', block: block %}
+{% endcomment %}
+
+{%- liquid
+  assign max_same_qty = 0
+
+  for item in cart.items
+    unless item.product.tags contains 'cart-hidden'
+      assign product_qty = 0
+      for check_item in cart.items
+        unless check_item.product.tags contains 'cart-hidden'
+          if check_item.product.id == item.product.id
+            assign product_qty = product_qty | plus: check_item.quantity
+          endif
+        endunless
+      endfor
+      if product_qty > max_same_qty
+        assign max_same_qty = product_qty
+      endif
+    endunless
+  endfor
+
+  assign tier_1_qty = block.settings.tier_1_qty
+  assign tier_1_percent = block.settings.tier_1_percent
+  assign tier_2_enabled = block.settings.tier_2_enabled
+  assign tier_2_qty = block.settings.tier_2_qty
+  assign tier_2_percent = block.settings.tier_2_percent
+
+  if tier_2_enabled
+    assign highest_goal = tier_2_qty | times: 1.0
+  else
+    assign highest_goal = tier_1_qty | times: 1.0
+  endif
+
+  assign bar_progress = max_same_qty | divided_by: highest_goal | times: 100.0
+  if bar_progress > 100.0
+    assign bar_progress = 100
+  endif
+
+  assign tier_1_position = tier_1_qty | divided_by: highest_goal | times: 100.0
+
+  assign current_tier_label = ''
+  assign next_tier_label = ''
+  assign amount_needed = 0
+  assign all_reached = false
+  assign tier_1_reached = false
+
+  if max_same_qty >= tier_1_qty
+    assign tier_1_reached = true
+  endif
+
+  if tier_2_enabled and max_same_qty >= tier_2_qty
+    assign all_reached = true
+  elsif tier_2_enabled == false and max_same_qty >= tier_1_qty
+    assign all_reached = true
+  endif
+
+  if all_reached == false and tier_1_reached == false
+    assign amount_needed = tier_1_qty | minus: max_same_qty
+    assign next_tier_label = tier_1_percent | append: '% off'
+  elsif all_reached == false and tier_1_reached
+    assign current_tier_label = tier_1_percent | append: '% off'
+    assign amount_needed = tier_2_qty | minus: max_same_qty
+    assign next_tier_label = tier_2_percent | append: '% off'
+  endif
+-%}
+
+{%- if cart != empty -%}
+  <div
+    class="cart-progress cart-checkpoints accent-color-{{ block.settings.accent_color }}"
+    style="--mobile-text-size: 1rem;--desktop-text-size: 1.2rem;--margin-top: {{ block.settings.margin_top | divided_by: 10.0 }}rem;--margin-bottom: {{ block.settings.margin_bottom | divided_by: 10.0 }}rem;"
+    {{ block.shopify_attributes }}
+  >
+    <p class="cart-progress__text">
+      {%- if all_reached -%}
+        {{ block.settings.success_message }}
+      {%- elsif tier_1_reached -%}
+        {{ block.settings.partial_message | replace: '[amount]', amount_needed | replace: '[current_tier]', current_tier_label | replace: '[next_tier]', next_tier_label }}
+      {%- else -%}
+        {{ block.settings.progress_message | replace: '[amount]', amount_needed | replace: '[next_tier]', next_tier_label }}
+      {%- endif -%}
+    </p>
+    <div class="cart-progress__bar">
+      <div class="cart-progress__bar__progress" style="width: {{ bar_progress }}%;">&nbsp;</div>
+
+      <div class="cart-progress__bar__badge cart-checkpoints__icon" style="--position:{{ tier_1_position }}%;">
+        <span class="material-symbols-outlined{% if block.settings.icon_filled %} filled{% endif %}{% if tier_1_reached %} reached{% endif %}">
+          {{ block.settings.icon | strip | downcase | replace: ' ', '_' }}
+        </span>
+        {%- if block.settings.tier_1_label != blank -%}
+          <span class="cart-checkpoints__label custom-font-size">
+            {{ block.settings.tier_1_label }}
+          </span>
+        {%- endif -%}
+      </div>
+
+      {%- if tier_2_enabled -%}
+        <div class="cart-progress__bar__badge cart-checkpoints__icon" style="--position:100%;">
+          <span class="material-symbols-outlined{% if block.settings.icon_filled %} filled{% endif %}{% if all_reached %} reached{% endif %}">
+            {{ block.settings.icon | strip | downcase | replace: ' ', '_' }}
+          </span>
+          {%- if block.settings.tier_2_label != blank -%}
+            <span class="cart-checkpoints__label custom-font-size">
+              {{ block.settings.tier_2_label }}
+            </span>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+{%- endif -%}
