@@ -12,12 +12,27 @@ export function generateFaq(config: StoreConfig): string {
   const base = getStoreBaseUrl(config);
   const lastUpdated = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
+  // Authorized dealer-specific questions (prepended for surveying stores)
+  const dealerQuestions = config.brandNiche && config.brandNiche.includes('surveying') ? `
+<h3>Are you an authorized dealer?</h3>
+<p>Yes. ${config.storeName} is an authorized dealer for the brands we carry. Every product is sourced directly from the manufacturer or an authorized distribution channel. This means you receive genuine, factory-backed equipment with all included documentation and support.</p>
+
+<h3>Are these genuine, authentic products?</h3>
+<p>Absolutely. We do not sell refurbished, grey-market or third-party products. Everything in our store comes directly from the manufacturer's authorized supply chain. Each item includes the original packaging, documentation and any applicable registration materials.</p>
+
+<h3>Do products come with manufacturer coverage?</h3>
+<p>Because we are an authorized dealer, products purchased through our store are eligible for the manufacturer's standard coverage and support programs. The specific terms vary by brand and product. Check the individual product listing for details, or <strong><a href="${base}/pages/contact-us" title="Contact Us">contact us</a></strong> and we can provide specifics for any item.</p>
+
+<h3>Can I get technical support for my equipment?</h3>
+<p>Yes. Our team can help with basic product questions, setup guidance and troubleshooting. For more advanced technical matters, we can connect you directly with the manufacturer's support team. Reach us at <strong><a href="mailto:${config.supportEmail}" title="${config.supportEmail}">${config.supportEmail}</a></strong> or through our <strong><a href="${base}/pages/contact-us" title="Contact Us">Contact Us</a></strong> page.</p>
+` : '';
+
   return `
 <p><em>Last updated: ${lastUpdated}</em></p>
 
 <h2>Frequently Asked Questions</h2>
 <p>Here are the answers to the most common inquiries we receive from shoppers. If your question isn't covered below, don't hesitate to <strong><a href="${base}/pages/contact-us" title="Contact Us">get in touch with us</a></strong>. Our team is ready to help!</p>
-
+${dealerQuestions}
 <h3>How can I order from your store?</h3>
 <p>Shopping with us is straightforward. Look through our product selection, choose the items you'd like, pick the right size or option (if applicable) and click "Add to Cart." When you've finished shopping, go to your cart and proceed to checkout. Fill in your delivery address and payment information, then submit your order. You'll receive an order confirmation email once the transaction goes through.</p>
 

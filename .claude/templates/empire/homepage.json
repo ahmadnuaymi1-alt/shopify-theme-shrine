@@ -1,0 +1,149 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "title": "Your Trusted Equipment Partner",
+            "text": "Authorized dealer for leading surveying and detection brands",
+            "color": "#ffffff",
+            "text_alignment": "center",
+            "button_one_label": "Shop All",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": ["slide-1"],
+      "settings": {
+        "enable_autoplay": false,
+        "autoplay_duration": 9,
+        "slideshow_width": "full",
+        "slideshow_height": "medium",
+        "slideshow_height_mobile": "large",
+        "slideshow_text_below_image": false
+      }
+    },
+    "highlights": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "h1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-award-winning",
+            "title": "Authorized Dealer",
+            "text": "<p>Official products from trusted brands</p>"
+          }
+        },
+        "h2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery-cart",
+            "title": "Free Shipping",
+            "text": "<p>On all orders across the US</p>"
+          }
+        },
+        "h3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat",
+            "title": "Expert Support",
+            "text": "<p>Technical help when you need it</p>"
+          }
+        },
+        "h4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-shield",
+            "title": "Secure Payments",
+            "text": "<p>Encrypted checkout you can trust</p>"
+          }
+        }
+      },
+      "block_order": ["h1", "h2", "h3", "h4"],
+      "settings": {
+        "section_spacing": true,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#046e82",
+        "background_color": "#ffffff",
+        "mobile_layout": "grid"
+      }
+    },
+    "featured_collection": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Featured Equipment",
+        "layout": "grid",
+        "mobile_layout": "grid",
+        "product_count": 4,
+        "cta_label": "View All",
+        "cta_button_style": "primary"
+      }
+    },
+    "image_with_text": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "title": "About [Store Name]",
+        "text": "<p>We are an authorized dealer for leading surveying equipment and metal detector brands. Every product we carry is sourced directly from the manufacturer and backed by full brand support. Whether you are a seasoned professional or just getting started, we are here to help you find the right tools for the job.</p>",
+        "button_label": "Learn More",
+        "button_link": "shopify:///pages/about-us",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "background_color": "#f5f3ed",
+        "color": "#1d1d1d"
+      }
+    },
+    "testimonials": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "t1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5"
+          }
+        },
+        "t2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5"
+          }
+        },
+        "t3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5"
+          }
+        }
+      },
+      "block_order": ["t1", "t2", "t3"],
+      "settings": {
+        "title": "What Our Customers Say",
+        "image_crop": "circle",
+        "text_size": "large"
+      }
+    },
+    "faq": {
+      "type": "dynamic-faq",
+      "settings": {
+        "title": "Frequently Asked Questions"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "highlights",
+    "featured_collection",
+    "image_with_text",
+    "testimonials",
+    "faq"
+  ]
+}

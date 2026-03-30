@@ -1,0 +1,165 @@
+{
+  "definitions": [
+    {
+      "name": "Image with Text Header",
+      "namespace": "custom",
+      "key": "image_with_text_header",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Image with Text Body",
+      "namespace": "custom",
+      "key": "image_with_text_body",
+      "type": "multi_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Image for Image Text Section",
+      "namespace": "custom",
+      "key": "image_for_image_text_section_1",
+      "type": "file_reference",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 1 Header",
+      "namespace": "custom",
+      "key": "feature_1_header",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 1 Body",
+      "namespace": "custom",
+      "key": "feature_1_body",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 2 Header",
+      "namespace": "custom",
+      "key": "feature_2_header",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 2 Body",
+      "namespace": "custom",
+      "key": "feature_2_body",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 3 Header",
+      "namespace": "custom",
+      "key": "feature_3_header",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 3 Body",
+      "namespace": "custom",
+      "key": "feature_3_body",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 4 Header",
+      "namespace": "custom",
+      "key": "feature_4_header",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 4 Body",
+      "namespace": "custom",
+      "key": "feature_4_body",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 5 Header",
+      "namespace": "custom",
+      "key": "feature_5_header",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 5 Body",
+      "namespace": "custom",
+      "key": "feature_5_body",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 6 Header",
+      "namespace": "custom",
+      "key": "feature_6_header",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "Feature 6 Body",
+      "namespace": "custom",
+      "key": "feature_6_body",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Question 1",
+      "namespace": "custom",
+      "key": "faq_q1",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Answer 1",
+      "namespace": "custom",
+      "key": "faq_a1",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Question 2",
+      "namespace": "custom",
+      "key": "faq_q2",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Answer 2",
+      "namespace": "custom",
+      "key": "faq_a2",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Question 3",
+      "namespace": "custom",
+      "key": "faq_q3",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Answer 3",
+      "namespace": "custom",
+      "key": "faq_a3",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Question 4",
+      "namespace": "custom",
+      "key": "faq_q4",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    },
+    {
+      "name": "FAQ Answer 4",
+      "namespace": "custom",
+      "key": "faq_a4",
+      "type": "single_line_text_field",
+      "ownerType": "PRODUCT"
+    }
+  ]
+}

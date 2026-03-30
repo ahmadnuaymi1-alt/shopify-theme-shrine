@@ -1,0 +1,101 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "highlights": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "h1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-award-winning",
+            "title": "Authorized Dealer",
+            "text": "<p>Official products from trusted brands</p>"
+          }
+        },
+        "h2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery-cart",
+            "title": "Free Shipping",
+            "text": "<p>On all orders across the US</p>"
+          }
+        },
+        "h3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat",
+            "title": "Dedicated Support",
+            "text": "<p>Monday to Friday, 9AM to 5PM (EST)</p>"
+          }
+        },
+        "h4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-shield",
+            "title": "Secure Payments",
+            "text": "<p>Encrypted checkout you can trust</p>"
+          }
+        }
+      },
+      "block_order": ["h1", "h2", "h3", "h4"],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#046e82",
+        "background_color": "#f5f3ed",
+        "mobile_layout": "grid"
+      }
+    },
+    "footer": {
+      "type": "static-footer",
+      "blocks": {
+        "contact_block": {
+          "type": "text",
+          "settings": {
+            "title": "About",
+            "text": "<p><strong>Store Name: </strong>[Store Name]<br/><strong>Address: </strong>[REPLACE]<br/><strong>Email: </strong>[REPLACE]<br/><strong>Number: </strong>[REPLACE]<br/><strong>Hours of Operation:</strong> Monday to Friday, 9:00 AM to 5:00 PM (EST)<br/>We try our best to get back to inquiries within 1 to 2 business days.</p>"
+          }
+        },
+        "policies_menu": {
+          "type": "menu",
+          "settings": {
+            "menu": "policies"
+          }
+        },
+        "info_menu": {
+          "type": "menu",
+          "settings": {
+            "menu": "info"
+          }
+        },
+        "about_block": {
+          "type": "text",
+          "settings": {
+            "title": "About [Store Name]",
+            "text": "<p>Your authorized source for surveying equipment and metal detectors. We partner directly with leading brands to bring you genuine products backed by full manufacturer support.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "contact_block",
+        "policies_menu",
+        "info_menu",
+        "about_block"
+      ],
+      "settings": {
+        "background_color": "#f5f3ed",
+        "text_color": "#1d1d1d",
+        "show_social_icons": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": ["highlights", "footer"]
+}

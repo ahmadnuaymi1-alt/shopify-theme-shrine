@@ -16,6 +16,20 @@ setup/.playwright-mcp/
 
 # Temporary files
 temp/
+temp-*
+nosura-review/
+
+# Screenshots and images (working files, not theme assets)
+*.png
+*.jpg
+*.jpeg
+*.csv
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg
+
+# Playwright MCP logs
+.playwright-mcp/
 
 # Environment and secrets
 .env

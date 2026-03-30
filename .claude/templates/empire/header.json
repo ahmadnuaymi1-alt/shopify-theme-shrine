@@ -1,0 +1,47 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement": {
+      "type": "static-announcement",
+      "blocks": {
+        "msg-1": {
+          "type": "message",
+          "settings": {
+            "text": "Authorized Dealer — Free Shipping on All Orders",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["msg-1"],
+      "settings": {
+        "show_announcement": true,
+        "style": "with-background",
+        "background_color": "#1d1d1d",
+        "text_color": "#ffffff",
+        "enable_autoplay": true,
+        "autoplay_duration": 5,
+        "enable_sticky": false
+      }
+    },
+    "header": {
+      "type": "static-header",
+      "settings": {
+        "header_layout": "logo-left--nav-below",
+        "logo_max_width": 200,
+        "logo_max_width_mobile": 120,
+        "menu": "main-menu",
+        "enable_sticky_header": true,
+        "enable_search": true,
+        "show_cart_icon": true,
+        "show_user_icon": true,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true
+      }
+    }
+  },
+  "order": ["announcement", "header"]
+}

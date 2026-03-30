@@ -1,0 +1,83 @@
+{
+  "colors": {
+    "color_background": "#ffffff",
+    "color_footer_background": "#f5f3ed",
+    "color_footer_text": "#1d1d1d",
+    "color_header_background": "#ffffff",
+    "color_header_text": "#1d1d1d",
+    "color_text": "#1d1d1d",
+    "color_text_light": "#949494",
+    "color_headings": "#1d1d1d",
+    "color_links": "#046e82",
+    "color_button_background": "#1d1d1d",
+    "color_button_text": "#ffffff",
+    "color_button_secondary_background": "#ffffff",
+    "color_button_secondary_text": "#1d1d1d",
+    "color_button_secondary_border": "#dddddd",
+    "color_input_background": "#ffffff",
+    "color_input_border": "#dddddd",
+    "color_input_text": "#4d4d4d",
+    "color_overlay": "#000000",
+    "color_product_review_star": "#ffab41",
+    "color_product_sale_accent": "#e32c2b",
+    "checkout_accent_color": "#046e82",
+    "checkout_button_color": "#1d1d1d",
+    "checkout_sidebar_background_color": "#f5f3ed"
+  },
+  "typography": {
+    "type_heading": "montserrat_n7",
+    "type_section": "montserrat_n7",
+    "type_body": "nunito_sans_n4",
+    "type_menu": "nunito_sans_n7",
+    "type_button": "nunito_sans_n7",
+    "type_heading_capitalize": true,
+    "type_section_capitalize": true,
+    "type_menu_capitalize": false,
+    "type_button_capitalize": true,
+    "type_heading_spacing": 5,
+    "type_section_spacing": 5,
+    "type_menu_spacing": 0,
+    "type_button_spacing": 2,
+    "type_heading_size": "1",
+    "type_size_base": 16
+  },
+  "layout": {
+    "layout_max_width": 1400,
+    "overlay_opacity": 50
+  },
+  "product": {
+    "select_first_available_variant": true,
+    "product_show_vendor": true,
+    "product_show_sku": false,
+    "product_social_sharing": false,
+    "product_ratings_reviews": true,
+    "product_ratings_star_display": true,
+    "product_enable_recently_viewed_products": true,
+    "product_sales_badge": true,
+    "product_sales_badge_style": "percent",
+    "product_option_style": "radio",
+    "gallery_thumbnail_position": "below",
+    "product_slideshow_style": "natural"
+  },
+  "product_grid": {
+    "product_grid_image_style": "natural",
+    "product_grid_image_crop": false,
+    "product_grid_show_second_image": true,
+    "product_grid_quick_buy": true,
+    "product_grid_quick_shop": true,
+    "product_grid_show_atc": "always",
+    "product_grid_show_quickshop": "always",
+    "product_grid_emphasize_price": false
+  },
+  "navigation": {
+    "show_breadcrumbs": true,
+    "enable_back_to_top_button": true,
+    "continue_url_404": true,
+    "continue_url_cart": true,
+    "continue_shopping_url": "shopify://collections/all"
+  },
+  "free_shipping": {
+    "enable_free_shipping_bar": true,
+    "free_shipping_minimum_amount": "0"
+  }
+}

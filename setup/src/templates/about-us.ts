@@ -21,6 +21,11 @@ export function generateAboutUs(config: StoreConfig): string {
     return generateKindCloudsAboutUs(config, lastUpdated);
   }
 
+  // Authorized dealer stores (surveying equipment, etc.)
+  if (config.brandNiche && config.brandNiche.includes('surveying')) {
+    return generateAuthorizedDealerAboutUs(config, lastUpdated);
+  }
+
   // Fallback for any other store
   return generateDefaultAboutUs(config, lastUpdated);
 }
@@ -61,6 +66,32 @@ function generateKindCloudsAboutUs(config: StoreConfig, lastUpdated: string): st
 <p>The product pages on here are pretty minimal and that is a choice we made on purpose. You get the name and what it is made of and the measurements. Done.</p>
 
 <p>We ship free anywhere in the US and <strong><a href="${base}/policies/refund-policy" title="Refund and Return Policy">returns</a></strong> are not a headache. If something goes wrong with what you ordered just <strong><a href="${base}/pages/contact-us" title="Contact Us">send us a message</a></strong>. We answer ${config.customerServiceHours} and it is usually ${config.responseTime}.</p>
+
+${buildContactBlock(config, false)}`;
+}
+
+function generateAuthorizedDealerAboutUs(config: StoreConfig, lastUpdated: string): string {
+  const base = getStoreBaseUrl(config);
+  return `
+<p><em>Last updated: ${lastUpdated}</em></p>
+
+<p>${config.storeName} is an authorized dealer for leading brands in the ${config.brandNiche} space. We partner directly with manufacturers to bring you genuine, factory-backed products at competitive prices.</p>
+
+<p>We started this store because we saw too many third-party sellers offering questionable products with no accountability. As an authorized dealer, every item we sell is sourced directly from the manufacturer. That means you get the real thing, with full brand support and documentation included.</p>
+
+<p>Here's what sets us apart:</p>
+<ul>
+<li>Official authorized dealer status with every brand we carry.</li>
+<li>Products shipped directly from the manufacturer or our authorized warehouse.</li>
+<li>Technical support. Our team can help with product questions and connect you with manufacturer resources when needed.</li>
+<li>Transparent pricing with no hidden fees or inflated markups.</li>
+</ul>
+
+<p>Whether you're a seasoned professional looking to upgrade your kit or a hobbyist starting out, we carry equipment at every level. Each product listing includes accurate specifications, clear photos and honest descriptions.</p>
+
+<p>We ship free across the ${config.shippingRegions} and stand behind every sale. If you have questions about a product or need help choosing the right equipment, <strong><a href="${base}/pages/contact-us" title="Contact Us">reach out to us</a></strong>. Our team is available ${config.customerServiceHours} and will get back to you within ${config.responseTime}.</p>
+
+<p>For common questions, check our <strong><a href="${base}/pages/faqs" title="FAQs">FAQ page</a></strong>. For returns, read our <strong><a href="${base}/policies/refund-policy" title="Refund and Return Policy">return policy</a></strong>.</p>
 
 ${buildContactBlock(config, false)}`;
 }
